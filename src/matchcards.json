@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "image": "/src/images/blackRanger.png",
+        "image": "/assets/images/blackRanger.jpg",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "./assets/images/forceAwakens.jpg",
+        "image": "/assets/images/redRanger.png",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "./assets/images/ghostbusters.jpg",
+        "image": "/assets/images/blueRanger.png",
         "clicked": false
     },
     {
         "id": 4,
-        "image": "./assets/images/guardians.jpg",
+        "image": "/assets/images/yellowRanger.png",
         "clicked": false
     },
     {
         "id": 5,
-        "image": "./assets/images/hangover.jpg",
+        "image": "/assets/images/pinkRanger.png",
         "clicked": false
     },
     {
         "id": 6,
-        "image": "./assets/images/harryPotter.jpg",
+        "image": "/assets/images/greenRanger.png",
         "clicked": false
     }
 ]

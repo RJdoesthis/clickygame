@@ -5,6 +5,7 @@ import Title from "./components/Title";
 import matches from "./matchcards.json";
 import "./App.css";
 
+
 let correctGuesses = 0;
 let bestScore = 0;
 let clickMessage = "Select a Ranger and get points but if you click on the same one twice and you lose!";
@@ -112,14 +113,15 @@ class App extends Component {
                 </h3>
                 <div className="container">
                     <div className="row">
-                        {this.state.matches.map(match => (
-                            <MatchCard
+                        {this.state.matches.map((match) => {
+                            console.log('each match', match)
+                            return <MatchCard
                                 setClicked={this.setClicked}
                                 id={match.id}
                                 key={match.id}
                                 image={match.image}
                             />
-                        ))}
+                        })}
                     </div>
                 </div>
 
